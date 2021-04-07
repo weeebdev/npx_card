@@ -1,14 +1,14 @@
 {
-  "name": "anmol",
-  "version": "2.1.0",
-  "description": "A personal card for Anmol Pratap Singh (@anmol098)",
+  "name": "weeebdev",
+  "version": "1.0.0",
+  "description": "A personal card for Adil Akhmetov (@weeebdev)",
   "main": "card.js",
   "bin": {
-    "anmol": "./card.js"
+    "weeebdev": "./card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anmol098/npx_card.git"
+    "url": "git+https://github.com/weeebdev/npx_card.git"
   },
   "scripts": {
     "test": "node card.js",
@@ -19,6 +19,7 @@
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
     "cli-spinners": "^2.5.0",
+    "googleapis": "^39.2.0",
     "inquirer": "^7.3.2",
     "open": "^7.0.4",
     "ora": "^5.1.0",
@@ -32,6 +33,6 @@
     "npx card",
     "business card"
   ],
-  "author": "Anmol Singh <hi@anmolsingh.me> (https://anmolsingh.me/)",
+  "author": "Adil Akhmetov <weeebdev@gmail.com> (https://weeebdev.github.io/)",
   "license": "ISC"
 }
