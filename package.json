@@ -1,10 +1,10 @@
 {
   "name": "weeebdev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A personal card for Adil Akhmetov (@weeebdev)",
   "main": "card.js",
   "bin": {
-    "weeebdev": "./card.js"
+    "weeebdev": "card.js"
   },
   "repository": {
     "type": "git",
