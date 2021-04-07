@@ -7,11 +7,6 @@ const chalk = require("chalk");
 const inquirer = require("inquirer");
 const clear = require("clear");
 const open = require("open");
-const fs = require("fs");
-const request = require("request");
-const path = require("path");
-const ora = require("ora");
-const cliSpinners = require("cli-spinners");
 clear();
 
 const prompt = inquirer.createPromptModule();
@@ -36,7 +31,9 @@ const questions = [
         },
       },
       {
-        name: `Wanna my ${chalk.magentaBright.bold("Resume")}?`,
+        name: `Wanna ${chalk.red("see")} my ${chalk.magentaBright.bold(
+          "Resume"
+        )}?`,
         value: () => {
           open(
             "https://docs.google.com/viewer?url=https://docs.google.com/document/d/169vbQt_L2pSrQCOzzF3czqAaSMPgbFmi8f2X6jArDTQ/export?format=pdf"
